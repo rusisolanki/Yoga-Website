@@ -1,0 +1,249 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="YOGALIFE - Fitness for life" />
+    <title>Y O G A - L I F E | YOGA Classes</title>
+    <!-- For Poppins Font Styles -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS for yoga Page -->
+    <link rel="stylesheet" type="text/css" href="css/yoga.css" />
+    <link rel="stylesheet" type="text/css" href="css/nav_footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <!-- jQuery library -->
+    <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <!-- jQuery UI -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <!-- custom JS for Yoga classes page-->
+    <script src="js/home.js"></script>
+    <script src="js/yoga.js"></script>
+  </head>
+  <body id="page">
+    <!-- navbar -->
+    <header>
+      <nav>
+        <div class="nav-center">
+          <!-- links -->
+          <ul class="links">
+            <li>
+              <a href="index.html">HOME</a>
+            </li>
+            <li>
+              <a href="yoga.html" class="active">YOGA CLASSES</a>
+            </li>
+            <li>
+              <a href="event.html">EVENTS</a>
+            </li>
+            <li>
+              <a href="about.html">ABOUT</a>
+            </li>
+
+            <li>
+              <a href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- navbar -->
+    <main>
+      <!-- slideshow -->
+      <div id="yoga">
+        <div id="yoga-text">
+          <p></p>
+        </div>
+      </div>
+      <!-- tabs for different batches -->
+      <div class="container">
+        <h3 class="features_heading">Yoga Sessions available for you</h3>
+        <br />
+        <div class="tabs">
+          <div class="tab active">Morning</div>
+          <div class="tab">Afternoon</div>
+          <div class="tab">Evening</div>
+        </div>
+        <div class="content">
+          <div class="content-item active">
+            <br />
+            <ul>
+              <li><h3>Rhythm & Routine</h3></li>
+              <li>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Deleniti odio laboriosam in recusandae expedita.
+              </li>
+              <br />
+              <li>
+                <h3>Time:</h3>
+                Monday — Wednesday <br />
+                8:30 am — 9:30 am
+              </li>
+              <br />
+              <li>
+                <h3>Instructor:</h3>
+                Jason Snyder, Kathryn Miller
+              </li>
+            </ul>
+          </div>
+          <div class="content-item">
+            <br />
+            <ul>
+              <li><h3>Yoga to Build Resilience</h3></li>
+              <li>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Deleniti odio laboriosam in recusandae expedita.
+              </li>
+              <br />
+              <li>
+                <h3>Time:</h3>
+                Wednesday — Friday <br />
+                12:30 pm — 2:30 pm
+              </li>
+              <br />
+              <li>
+                <h3>Instructor:</h3>
+                Chrisy Jonathan, John Dave
+              </li>
+            </ul>
+          </div>
+          <div class="content-item">
+            <br />
+            <ul>
+              <li><h3>Vinyasa Yoga</h3></li>
+              <li>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Deleniti odio laboriosam in recusandae expedita.
+              </li>
+              <br />
+              <li>
+                <h3>Time:</h3>
+                Saturday — Sunday <br />
+                5:00 pm — 7:00 pm
+              </li>
+              <br />
+              <li>
+                <h3>Instructor:</h3>
+                Tony, Stefan Oswad
+              </li>
+              <li></li>
+            </ul>
+          </div>
+          <button class="yoga_btn" type="submit">
+            <a href="contact.html">Enroll Now</a>
+          </button>
+        </div>
+      </div>
+      <!-- tabs with different batches -->
+
+      <div id="newsletter_body">
+        <div class="newsletter">
+          <h3 class="features_heading">
+            Book your session with a Yoga Professional Today
+          </h3>
+          <div class="newsletter">
+            <p>
+              Welcome to YOGA-LIFE <br />Enter your email address for a 20% off
+              discount on your first session
+            </p>
+            <br />
+            <form>
+              <input
+                class="form-control"
+                type="email"
+                placeholder="Your email here"
+                id="email_news"
+              />
+
+              <div class="popup_hide" id="popup">
+                <br />
+                <p>Hello!</p>
+                <p>Thank you for signing up to our Newsletter.</p>
+                <p>
+                  Our newsletter will be delivered shortly to the email address
+                  :
+                  <em><span id="pop-email"></span></em>
+                </p>
+                <a href="#" id="close">Close</a>
+              </div>
+              <button class="btn-news">Submit</button>
+              <p><span></span></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer_container">
+        <div class="footer-row">
+          <div class="footer-col-1">
+            <h3 class="title">Download Our App</h3>
+            <p>Download App for Android and ios mobile phone.</p>
+            <div class="app-logo">
+              <img
+                src="images/footer/playstore.png"
+                alt="playstore application"
+              />
+              <img
+                src="images/footer/app-store.png"
+                alt="appstore application"
+              />
+            </div>
+          </div>
+
+          <div class="footer-col-2">
+            <h3 class="title">Get in Touch</h3>
+            <i class="fas fa-location-arrow" style="font-size: 18px"></i>&nbsp;
+            150 King Street, Kitchener, CA<br /><br />
+            <i class="fas fa-envelope" style="font-size: 18px"></i>&nbsp;
+            Yogalife@gmail.com<br /><br />
+            <i class="fas fa-phone" style="font-size: 18px"></i> &nbsp;+1
+            256-545-8989
+          </div>
+
+          <div class="footer-col-3">
+            <h3 class="title">Follow Us</h3>
+            <a href="https://facebook.com/" target="_blank"
+              ><img src="images/footer/facebook.png" alt="Facebook Link"
+            /></a>
+            <a href="https://instagram.com/" target="_blank"
+              ><img src="images/footer/instagram.png" alt="Instagram Link"
+            /></a>
+            <a href="https://twitter.com/" target="_blank"
+              ><img src="images/footer/twitter.png" alt="Twitter Link"
+            /></a>
+            <a href="https://snapchat.com/" target="_blank"
+              ><img src="images/footer/snapchat.png" alt="Snapchat Link"
+            /></a>
+          </div>
+          <br />
+        </div>
+
+        <hr />
+        <p class="copyright">Copyright &copy; 2021 - YogaLife</p>
+        <div class="clock-container">
+          <div class="footer-js">
+            <div class="div-clock">
+              <div id="clock_display" class="clock" onload="showTime()"></div>
+            </div>
+            <div class="div-date">
+              <div id="date_display" class="date" onload="today()"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+    </footer>
+    <!-- footer end -->
+  </body>
+</html>
